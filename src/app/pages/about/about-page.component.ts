@@ -84,7 +84,7 @@ import { Router } from '@angular/router';
               <!-- Floating Badge -->
               <div class="absolute -bottom-6 -left-4 md:-bottom-10 md:-left-10 bg-amber-500 p-4 sm:p-8 rounded-3xl shadow-xl shadow-amber-500/20 max-w-[180px] sm:max-w-[240px] animate-bounce-slow">
                 <p class="text-slate-950 font-black text-xl sm:text-3xl mb-1">100%</p>
-                <p class="text-slate-900 text-[10px] sm:text-xs font-bold uppercase tracking-wider">Precisión en Ingeniería</p>
+                <p class="text-slate-900 text-[10px] sm:text-xs font-bold uppercase tracking-wider">{{ i18n.t().about.badge }}</p>
               </div>
             </div>
           </div>
@@ -97,14 +97,14 @@ import { Router } from '@angular/router';
           <div class="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
           <div class="relative z-10 space-y-8">
             <h2 class="text-4xl md:text-5xl font-bold text-white tracking-tight">
-              ¿Tienes un desafío técnico?
+              {{ i18n.t().about.cta.title }}
             </h2>
             <p class="text-slate-400 text-lg max-w-2xl mx-auto">
-              Estamos listos para diseñar y fabricar la solución que tu empresa necesita.
+              {{ i18n.t().about.cta.description }}
             </p>
             <div class="pt-4">
               <button (click)="scrollToContact()" class="inline-flex px-10 py-5 bg-amber-500 text-slate-950 font-bold rounded-2xl hover:bg-amber-400 transition-all hover:scale-105">
-                Iniciar Proyecto
+                {{ i18n.t().about.cta.button }}
               </button>
             </div>
           </div>

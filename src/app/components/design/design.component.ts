@@ -41,8 +41,8 @@ import { RouterLink } from '@angular/router';
                    </svg>
                  </div>
                  <div>
-                   <p class="text-[10px] text-slate-600 font-bold uppercase tracking-widest">Estado</p>
-                   <p class="text-slate-900 font-bold">Diseño Técnico</p>
+                   <p class="text-[10px] text-slate-600 font-bold uppercase tracking-widest">{{ i18n.t().design.statusLabel }}</p>
+                   <p class="text-slate-900 font-bold">{{ i18n.t().design.status }}</p>
                  </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ import { RouterLink } from '@angular/router';
           <!-- Text Content -->
           <div class="flex-1 space-y-8 order-1 lg:order-2">
             <div class="space-y-4">
-              <span class="text-amber-700 font-black text-xs uppercase tracking-widest">Ingeniería & Diseño</span>
+              <span class="text-amber-700 font-black text-xs uppercase tracking-widest">{{ i18n.t().design.category }}</span>
               <h2 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight">
                 {{ i18n.t().design.title }}
               </h2>
@@ -68,8 +68,8 @@ import { RouterLink } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-bold text-slate-900">Modelado 3D</h3>
-                  <p class="text-slate-500 text-sm">Visualización previa detallada.</p>
+                  <h3 class="font-bold text-slate-900">{{ i18n.t().design.features[0].title }}</h3>
+                  <p class="text-slate-500 text-sm">{{ i18n.t().design.features[0].desc }}</p>
                 </div>
               </div>
               <div class="flex items-start gap-4">
@@ -79,15 +79,15 @@ import { RouterLink } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-bold text-slate-900">Cálculo Estructural</h3>
-                  <p class="text-slate-500 text-sm">Resistencia garantizada.</p>
+                  <h3 class="font-bold text-slate-900">{{ i18n.t().design.features[1].title }}</h3>
+                  <p class="text-slate-500 text-sm">{{ i18n.t().design.features[1].desc }}</p>
                 </div>
               </div>
             </div>
             
             <div class="pt-6">
               <a routerLink="/about" class="px-8 py-4 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition-all hover:scale-105 inline-block">
-                Saber más sobre nosotros
+                {{ i18n.t().design.cta }}
               </a>
             </div>
           </div>

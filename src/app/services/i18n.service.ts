@@ -21,12 +21,26 @@ export const ES_TRANSLATIONS = {
             { title: 'Innovación', desc: 'Diseño técnico de vanguardia en cada plano.' },
             { title: 'Calidad', desc: 'Materiales certificados y acabados de precisión.' },
             { title: 'Compromiso', desc: 'Entregas puntuales y soporte técnico continuo.' }
-        ]
+        ],
+        badge: 'Precisión en Ingeniería',
+        cta: {
+            title: '¿Tienes un desafío técnico?',
+            description: 'Estamos listos para diseñar y fabricar la solución que tu empresa necesita.',
+            button: 'Iniciar Proyecto'
+        }
     },
     design: {
         title: 'Planos y Diseño',
         subtitle: 'La precisión es nuestra firma en cada proyecto.',
         description: 'Utilizamos tecnología de modelado avanzado para garantizar que cada milímetro cuente. Nuestros planos integran especificaciones técnicas rigurosas para asegurar la máxima eficiencia estructural.',
+        category: 'Ingeniería & Diseño',
+        statusLabel: 'Estado',
+        status: 'Diseño Técnico',
+        features: [
+            { title: 'Modelado 3D', desc: 'Visualización previa detallada.' },
+            { title: 'Cálculo Estructural', desc: 'Resistencia garantizada.' }
+        ],
+        cta: 'Saber más sobre nosotros',
         img: 'assets/images/elise-project-plans-technical.webp'
     },
     hero: {
@@ -124,12 +138,26 @@ export const EN_TRANSLATIONS = {
             { title: 'Innovation', desc: 'Cutting-edge technical design in every plan.' },
             { title: 'Quality', desc: 'Certified materials and precision finishes.' },
             { title: 'Commitment', desc: 'Punctual deliveries and continuous technical support.' }
-        ]
+        ],
+        badge: 'Engineering Precision',
+        cta: {
+            title: 'Do you have a technical challenge?',
+            description: 'We are ready to design and manufacture the solution your company needs.',
+            button: 'Start Project'
+        }
     },
     design: {
         title: 'Project Plans & Design',
         subtitle: 'Precision is our signature in every project.',
         description: 'We use advanced modeling technology to ensure every millimeter counts. Our plans integrate rigorous technical specifications to ensure maximum structural efficiency.',
+        category: 'Engineering & Design',
+        statusLabel: 'Status',
+        status: 'Technical Design',
+        features: [
+            { title: '3D Modeling', desc: 'Detailed preview visualization.' },
+            { title: 'Structural Calculation', desc: 'Guaranteed resistance.' }
+        ],
+        cta: 'Learn more about us',
         img: 'assets/images/elise-project-plans-technical.webp'
     },
     hero: {

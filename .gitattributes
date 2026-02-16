@@ -1,0 +1,18 @@
+# Vercel Edge Network Configuration
+# This file optimizes the deployment for Vercel's CDN
+
+# Enable automatic compression
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary

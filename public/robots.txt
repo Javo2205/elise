@@ -1,0 +1,11 @@
+# ELISE Landing - Robots.txt
+# Optimized for SEO and search engine crawling
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://elise-landing.vercel.app/sitemap.xml
+
+# Disallow admin or private routes (if any)
+# Disallow: /admin/

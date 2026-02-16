@@ -1,0 +1,22 @@
+{
+  "name": "ELISE - Industrial Engineering & Design",
+  "short_name": "ELISE",
+  "description": "Ingeniería, diseño y fabricación de mobiliario industrial de alta resistencia en Chihuahua, México",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/elise-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "es-MX",
+  "dir": "ltr",
+  "scope": "/"
+}

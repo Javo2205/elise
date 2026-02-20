@@ -20,7 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
 
       <!-- WhatsApp Floating Button -->
       <a 
-        href="https://wa.me/526141315892" 
+        href="https://wa.me/526144880511" 
         target="_blank" 
         rel="noopener noreferrer"
         class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 hover:bg-[#20ba5a] transition-all duration-300 group flex items-center justify-center"

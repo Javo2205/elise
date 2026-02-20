@@ -113,7 +113,10 @@ export const ES_TRANSLATIONS = {
         message: 'Mensaje',
         send: 'Enviar Mensaje',
         phone: 'Teléfono',
-        whatsapp: 'Enviar WhatsApp'
+        whatsapp: 'Enviar WhatsApp',
+        success: '¡Gracias! Tu mensaje ha sido enviado correctamente.',
+        error: 'Hubo un error al enviar el mensaje. Por favor, intenta de nuevo o contáctanos por WhatsApp.',
+        sending: 'Enviando...'
     },
     footer: {
         rights: 'Todos los derechos reservados.'
@@ -230,7 +233,10 @@ export const EN_TRANSLATIONS = {
         message: 'Message',
         send: 'Send Message',
         phone: 'Phone',
-        whatsapp: 'Send WhatsApp'
+        whatsapp: 'Send WhatsApp',
+        success: 'Thank you! Your message has been sent successfully.',
+        error: 'There was an error sending your message. Please try again or contact us via WhatsApp.',
+        sending: 'Sending...'
     },
     footer: {
         rights: 'All rights reserved.'
